@@ -15,7 +15,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import { NoEncryption } from '@mui/icons-material';
+
 
 const drawerWidth = 240;
 const navItems = [
@@ -29,7 +29,7 @@ const navItems = [
             'id': 2,
             'name': "Book Now",
             'value': "https://wa.me/918745948789",
-        }
+        },
 
 ]
 
@@ -69,7 +69,7 @@ function Navbar(props) {
       <CssBaseline />
       <AppBar component="nav" sx={{
         backgroundColor: '#2563EB',
-        height: '6rem',
+        height: '5.5rem',
         px: '1.5rem',
       }}>
         <Toolbar sx={{
