@@ -23,7 +23,7 @@ const navItems = [
         {   
             'id': 1,
             'name': "Find Us",
-            'value': "https://www.google.com/maps/place/Civil+Hospital+(Bahadurgarh,+Haryana)/@28.6964506,76.9237593,17z/data=!3m1!4b1!4m6!3m5!1s0x390d0957257d3b69:0xd0564ce5a6c7ff1e!8m2!3d28.6964506!4d76.9237593!16s%2Fg%2F11bxg9t6sh?entry=ttu",
+            'value': "https://www.google.com/maps/place/Civil+Hospital+(Bahadurgarh,+Haryana)/@28.696091234738354, 76.92406766125453,17z/data=!3m1!4b1!4m6!3m5!1s0x390d0957257d3b69:0xd0564ce5a6c7ff1e!8m2!3d28.6964506!4d76.9237593!16s%2Fg%2F11bxg9t6sh?entry=ttu",
         },
         {
             'id': 2,
