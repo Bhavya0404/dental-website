@@ -1,6 +1,5 @@
 import { Box, Typography } from '@mui/material'
 import React from 'react'
-import Navbar from './Navbar'
 
 const ServicePage = () => {
   return (

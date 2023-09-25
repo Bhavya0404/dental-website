@@ -3,11 +3,11 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
-import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea } from "@mui/material";
 import Divider from "@mui/material/Divider";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   const Item = styled(Paper)(({ theme }) => ({
@@ -21,12 +21,14 @@ const Services = () => {
   const data = [
     {
       id: 1,
+      link: "endo",
       image: require("../assets/image/fmr.png"),
       heading: "Endodontics",
       text: "This is a sample text",
     },
     {
       id: 2,
+      link: "implant",
       image: require("../assets/image/dental_implants.png"),
       heading: "Endodontics",
       text: "This is a sample text",
@@ -93,8 +95,8 @@ const Services = () => {
           textAlign: "center",
           my: "20px",
           fontSize: {
-            xs: '2rem',
-          }
+            xs: "2rem",
+          },
         }}
       >
         Services
@@ -104,8 +106,8 @@ const Services = () => {
         sx={{
           width: "100%",
           px: {
-            xs: '2rem',
-            lg: '5.4rem',
+            xs: "2rem",
+            lg: "5.4rem",
           },
           pt: "20px",
         }}
@@ -119,45 +121,52 @@ const Services = () => {
         >
           {data.map((d) => (
             <Grid item xs={6} sm={4} md={3} lg={2.4}>
-              <Box sx={{ maxWidth: 300 }}>
-                <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    // height="140px"
-                    image={d.image}
-                    alt="green iguana"
-                    sx={{
-                      height:{
-                        // lg: "140px",
-                        // md: "100px",
-                      }
-                    }}
-                  />
-
-                  <CardContent>
-                    <Typography
-                      gutterBottom
-                      sx={{ 
-                      textAlign: "center", 
-                      fontSize: {
-                        // lg: '1.5rem',
-                        md: '1.4rem',
-                        sm: '1.3rem',
-                        xs: '1rem',
-                      }, 
+              <Link
+                to={d.link}
+                style={{
+                  textDecoration: "none",
+                  color: "black",
+                }}
+              >
+                <Box sx={{ maxWidth: 300 }}>
+                  <CardActionArea>
+                    <CardMedia
+                      component="img"
+                      // height="140px"
+                      image={d.image}
+                      alt="green iguana"
+                      sx={{
+                        height: {
+                          // lg: "140px",
+                          // md: "100px",
+                        },
                       }}
-                      // variant="h5"
-                      component="div"
-                    >
-                      {d.heading}
-                    </Typography>
-                    {/* <Typography variant="body2" color="text.secondary">
+                    />
+
+                    <CardContent>
+                      <Typography
+                        gutterBottom
+                        sx={{
+                          textAlign: "center",
+                          fontSize: {
+                            // lg: '1.5rem',
+                            md: "1.4rem",
+                            sm: "1.3rem",
+                            xs: "1rem",
+                          },
+                        }}
+                        // variant="h5"
+                        component="div"
+                      >
+                        {d.heading}
+                      </Typography>
+                      {/* <Typography variant="body2" color="text.secondary">
                       {d.text}
                     </Typography> */}
-                  </CardContent>
-                </CardActionArea>
-              </Box>
-              
+                    </CardContent>
+                  </CardActionArea>
+                </Box>
+              </Link>
             </Grid>
           ))}
         </Grid>

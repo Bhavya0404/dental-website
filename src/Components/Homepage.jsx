@@ -1,16 +1,16 @@
-import Navbar from "./Navbar";
-import Carousel from "./Carousel";
+import Slider from "./Carousel/Slider"
 import Services from "./Services";
 import AboutUs from "./AboutUs";
 import Reviews from "./Reviews";
 import Footer from "./Footer";
+
 
 import React from 'react'
 
 const Homepage = () => {
   return (
     <div>
-        <Carousel />
+        <Slider />
         <Services />
         <AboutUs />
         <Reviews />

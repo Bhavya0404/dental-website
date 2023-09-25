@@ -1,18 +1,20 @@
-import AboutUs from "./Components/AboutUs";
-import Carousel from "./Components/Carousel";
-import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
-import Reviews from "./Components/Reviews";
-import Services from "./Components/Services";
 import ServicePage from "./Components/ServicePage";
 import Homepage from "./Components/Homepage";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
 function App() {
   return (
-    <div>
-      <Navbar/>
-      {/* <Homepage /> */}
-      <ServicePage />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/endo" element={<ServicePage />} />
+          <Route path="/implant" element={<ServicePage />} />
+        </Routes> 
+      </div>
+    </BrowserRouter>
   );
 }
 

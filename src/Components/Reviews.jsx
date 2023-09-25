@@ -1,8 +1,6 @@
 import { Box, Typography } from "@mui/material";
-import { useState } from "react";
 import React from "react";
 import Rating from "@mui/material/Rating";
-import Carousel from "react-material-ui-carousel";
 import RatingText from "./RatingText";
 
 
