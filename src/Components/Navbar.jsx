@@ -50,11 +50,19 @@ function Navbar(props) {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item.id} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item.name} />
-            </ListItemButton>
-          </ListItem>
+          <a target='_blank' href={item.value} rel="noreferrer" style={{
+            textDecoration: 'none',
+          }}>
+            <Button key={item.id} sx={{ 
+              color: 'black', 
+              mr: '2px', 
+              display: 'flex',
+              flexDirection: 'column',
+              mx: 'auto',
+              }}>
+              {item.name}
+            </Button>
+          </a>
         ))}
       </List>
     </Box>
@@ -93,7 +101,7 @@ function Navbar(props) {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <a href={item.value}>
+              <a target='_blank' href={item.value} rel="noreferrer">
               <Button key={item.id}  sx={{ color: '#fff', mr: '2px' }}>
                 {item.name}
               </Button>

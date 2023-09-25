@@ -34,7 +34,7 @@ const Reviews = () => {
           Kind Words from our Customers
         </Typography>
 
-        <Rating value="5" />
+        <Rating readOnly value="5" />
         <a target="_blank" rel="noreferrer" href="https://www.google.com/search?q=zumaxaa&oq=zumaxaa&aqs=chrome..69i57.1505j0j4&sourceid=chrome&ie=UTF-8#lrd=0x390d091bd62f918b:0x6898d259594a4f53,1,,,,">
         <Typography variant="subtitle1" component="div">160+ reviews</Typography>
         </a>

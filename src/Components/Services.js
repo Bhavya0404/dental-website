@@ -8,6 +8,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea } from "@mui/material";
 import Divider from "@mui/material/Divider";
+
 const Services = () => {
   const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -20,61 +21,61 @@ const Services = () => {
   const data = [
     {
       id: 1,
-      image: require("../assets/images/image1.jpg"),
+      image: require("../assets/image/fmr.png"),
       heading: "Endodontics",
       text: "This is a sample text",
     },
     {
-      id: 1,
-      image: require("../assets/images/image1.jpg"),
+      id: 2,
+      image: require("../assets/image/dental_implants.png"),
       heading: "Endodontics",
       text: "This is a sample text",
     },
     {
-      id: 1,
-      image: require("../assets/images/image1.jpg"),
+      id: 3,
+      image: require("../assets/image/endodontics.png"),
       heading: "Endodontics",
       text: "This is a sample text",
     },
     {
-      id: 1,
-      image: require("../assets/images/image1.jpg"),
+      id: 4,
+      image: require("../assets/image/oral_surgery.png"),
       heading: "Endodontics",
       text: "This is a sample text",
     },
     {
-      id: 1,
-      image: require("../assets/images/image1.jpg"),
+      id: 5,
+      image: require("../assets/image/periodontics.png"),
       heading: "Endodontics",
       text: "This is a sample text",
     },
     {
-      id: 1,
-      image: require("../assets/images/image1.jpg"),
+      id: 6,
+      image: require("../assets/images/prosthodontics.png"),
       heading: "Endodontics",
       text: "This is a sample text",
     },
     {
-      id: 1,
-      image: require("../assets/images/image1.jpg"),
+      id: 7,
+      image: require("../assets/image/smile_designing.png"),
       heading: "Endodontics",
       text: "This is a sample text",
     },
     {
-      id: 1,
-      image: require("../assets/images/image1.jpg"),
+      id: 8,
+      image: require("../assets/image/orthodontics.png"),
       heading: "Endodontics",
       text: "This is a sample text",
     },
     {
-      id: 1,
-      image: require("../assets/images/image1.jpg"),
+      id: 9,
+      image: require("../assets/image/pedodontics.png"),
       heading: "Endodontics",
       text: "This is a sample text",
     },
     {
-      id: 1,
-      image: require("../assets/images/image1.jpg"),
+      id: 10,
+      image: require("../assets/image/image1.png"),
       heading: "Endodontics",
       text: "This is a sample text",
     },
