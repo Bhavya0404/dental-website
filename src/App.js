@@ -10,8 +10,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/dental-website" element={<Homepage />} />
-          <Route path="/endo" element={<ServicePage />} />
-          <Route path="/implant" element={<ServicePage />} />
+          <Route path="/dental-website/endo" element={<ServicePage />} />
+          <Route path="/dental-website/implant" element={<ServicePage />} />
         </Routes> 
       </div>
     </BrowserRouter>
