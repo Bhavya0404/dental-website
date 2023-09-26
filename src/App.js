@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/dental-website" element={<Homepage />} />
           <Route path="/endo" element={<ServicePage />} />
           <Route path="/implant" element={<ServicePage />} />
         </Routes> 
