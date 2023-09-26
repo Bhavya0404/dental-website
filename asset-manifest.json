@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dental-website/static/css/main.a240c550.css",
+    "main.js": "/dental-website/static/js/main.08155278.js",
+    "static/media/image1.png": "/dental-website/static/media/image1.926420567568517bd3dd.png",
+    "static/media/orthodontics.png": "/dental-website/static/media/orthodontics.80dcb8711ff8c3cdf114.png",
+    "static/media/pedodontics.png": "/dental-website/static/media/pedodontics.699be29662d2c9dcc96a.png",
+    "static/media/endodontics.png": "/dental-website/static/media/endodontics.b14cd826cea935cf3567.png",
+    "static/media/fmr.png": "/dental-website/static/media/fmr.9449034482969a2922e0.png",
+    "static/media/dental_implants.png": "/dental-website/static/media/dental_implants.658b8ac7b1486fdfbc48.png",
+    "static/media/smile_designing.png": "/dental-website/static/media/smile_designing.eee57fb2d616e23ab2ba.png",
+    "static/media/periodontics.png": "/dental-website/static/media/periodontics.a404e5796f79513e6b42.png",
+    "static/media/prosthodontics.png": "/dental-website/static/media/prosthodontics.db0a5bf081bc36e8cffc.png",
+    "static/media/oral_surgery.png": "/dental-website/static/media/oral_surgery.36c738cfb8b2de344bb7.png",
+    "index.html": "/dental-website/index.html",
+    "main.a240c550.css.map": "/dental-website/static/css/main.a240c550.css.map",
+    "main.08155278.js.map": "/dental-website/static/js/main.08155278.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a240c550.css",
+    "static/js/main.08155278.js"
+  ]
+}
