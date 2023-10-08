@@ -6,7 +6,6 @@ import Paper from "@mui/material/Paper";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea } from "@mui/material";
-import Divider from "@mui/material/Divider";
 import { Link } from "react-router-dom";
 
 const Services = () => {
@@ -28,57 +27,64 @@ const Services = () => {
     },
     {
       id: 2,
-      link: "implant",
+      link: "dental-implants",
       image: require("../assets/image/dental_implants.png"),
-      heading: "Endodontics",
+      heading: "Dental Implants",
       text: "This is a sample text",
     },
     {
       id: 3,
+      link: "endodontics",
       image: require("../assets/image/endodontics.png"),
       heading: "Endodontics",
       text: "This is a sample text",
     },
     {
       id: 4,
+      link: "oral-surgery",
       image: require("../assets/image/oral_surgery.png"),
-      heading: "Endodontics",
+      heading: "Oral Surgery",
       text: "This is a sample text",
     },
     {
       id: 5,
+      link: "periodontics",
       image: require("../assets/image/periodontics.png"),
-      heading: "Endodontics",
+      heading: "Periodontics",
       text: "This is a sample text",
     },
     {
       id: 6,
+      link: "prosthodontics",
       image: require("../assets/images/prosthodontics.png"),
-      heading: "Endodontics",
+      heading: "Prosthodontics",
       text: "This is a sample text",
     },
     {
       id: 7,
+      link: "smile-designing",
       image: require("../assets/image/smile_designing.png"),
-      heading: "Endodontics",
+      heading: "Smile Designing",
       text: "This is a sample text",
     },
     {
       id: 8,
+      link: "orthodontics",
       image: require("../assets/image/orthodontics.png"),
-      heading: "Endodontics",
+      heading: "Orthodontics",
       text: "This is a sample text",
     },
     {
       id: 9,
+      link: "pedodontics",
       image: require("../assets/image/pedodontics.png"),
-      heading: "Endodontics",
+      heading: "Pedodontics",
       text: "This is a sample text",
     },
     {
       id: 10,
       image: require("../assets/image/image1.png"),
-      heading: "Endodontics",
+      heading: "More Services",
       text: "This is a sample text",
     },
   ];
