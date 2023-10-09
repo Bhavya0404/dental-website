@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dental-website/static/css/main.a240c550.css",
-    "main.js": "/dental-website/static/js/main.6f263f23.js",
+    "main.js": "/dental-website/static/js/main.7f9e7ead.js",
     "static/media/image1.png": "/dental-website/static/media/image1.926420567568517bd3dd.png",
     "static/media/orthodontics.png": "/dental-website/static/media/orthodontics.80dcb8711ff8c3cdf114.png",
     "static/media/pedodontics.png": "/dental-website/static/media/pedodontics.699be29662d2c9dcc96a.png",
@@ -14,10 +14,10 @@
     "static/media/oral_surgery.png": "/dental-website/static/media/oral_surgery.36c738cfb8b2de344bb7.png",
     "index.html": "/dental-website/index.html",
     "main.a240c550.css.map": "/dental-website/static/css/main.a240c550.css.map",
-    "main.6f263f23.js.map": "/dental-website/static/js/main.6f263f23.js.map"
+    "main.7f9e7ead.js.map": "/dental-website/static/js/main.7f9e7ead.js.map"
   },
   "entrypoints": [
     "static/css/main.a240c550.css",
-    "static/js/main.6f263f23.js"
+    "static/js/main.7f9e7ead.js"
   ]
 }
